@@ -8,20 +8,20 @@ int main(int argc, char *argv[])
 	
 	for(i=0;i<10;i++)
 	{
-	printf("enter value for A[%d]",i); //we take values from user
+	printf("enter value for A[%d]",i); 
 	scanf("%d",&a[i]);
 	}
 	
 	for(i=0;i<10;i++)
 	{
-	printf("enter value for B[%d]",i); //we take values from user
+	printf("enter value for B[%d]",i); 
 	scanf("%d",&b[i]);
 	}
 	
 	
 	for(i=0;i<10;i++)
 	{
-		temp=a[i];	//we used temp variable for not lose our values
+		temp=a[i];
 		a[i]=b[i];
 		b[i]=temp;	
 	}
